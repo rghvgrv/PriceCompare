@@ -84,7 +84,7 @@ def Amazon_ProductDetails(url):
             print(f"Failed to fetch the page. Status code: {response.status_code}")
             return None, None
     except Exception as e:
-        return None;
+        return None, None;
 
 # Example usage
 if __name__ == "__main__":
