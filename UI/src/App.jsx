@@ -9,7 +9,7 @@ const App = () => {
   const handleSearch = async () => {
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:8000/process-url", {
+      const res = await fetch("https://pricecompare-p2h1.onrender.com/process-url", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
